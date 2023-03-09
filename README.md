@@ -1,45 +1,19 @@
-# Proxumer - Frontend Developer Interview Question
+# Chat App 1.0  
+<img width="794" alt="Screenshot 2566-03-09 at 11 45 55" src="https://user-images.githubusercontent.com/78352154/223927298-67c16a80-320f-4d94-8e9a-9a497678d712.png">
+
 
 Objective: A web-based, GraphQL-powered chat client
 
-## Demo video
+## How to Install and Run
 
-See the demo video in `screenshots/`
+1. open project and user 'yarn install'
+2. enter to folder 'server' in project and 'yarn install'
+3. in server terminal use 'yarn dev'
+4. back from 'server' project and use 'react-scripts start'
 
-## CSS Format Requirement
 
-Font Family Prompt
+## Things need to do in the Future
+- put PubSub Function to refresh the messages in chat room realtime (still learning how to implement it).
+- still have some CSS  bugs to fix.
+- need to refactor code for make it better.
 
-##### Container White
-
-    background color #ffffff
-    radius 20px
-    height 90vh
-
-##### Title
-
-    font size 37px
-    color #383838
-
-##### Button
-
-    color #ffffff
-    background image radial-gradient(ellipse farthest-corner at top left, #c41417 0%, #b31315 100%)
-
-##### Text Button
-
-    color #6f6f6f
-    hover color #c41417
-
-##### Input
-
-    height 60px
-    color #4e4e4e
-    border 3px solid lightgray
-    radius 10px
-    font size 34px
-
-## Evaluation
-
-- You must strictly adhere to the above CSS format requirement
-- Your solution must function in the exact same way as shown in the given demo video
