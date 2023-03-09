@@ -14,12 +14,24 @@ body,
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  background-image: url('assets/images/bg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  overflow: auto;
+
+
+  .home-title-icon {
+    margin-top: 8px;
+  }
 }
 
 .container {
+  overflow: auto;
   width: 90%;
-  height: 90vh;
+  height: 100%;
+  padding: 20px;
   background-color: white;
   border-radius: 20px;
-  margin-top: 40px;
 }
